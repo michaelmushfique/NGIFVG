@@ -112,7 +112,7 @@ iframe{
     padding-top:20px;
     padding-bottom:20px;
 }
-#graphic img{
+#graphic img,#history img{
     width:100%;
     display:block;
     padding-top:20px;
