@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+li{
+    list-style-type:none;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.navbar a{
+    color:#4b7de1;
+}
+.showcase{
+    background:url("images/background.jpg");
+    background-size:cover;
+    background-position: top center;
+    min-height:100vh;
+}
+.showcase .wrapper,.showcase,.showcase .container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+.showcase .wrapper{
+    width:80%;
+    margin:auto;
+    text-align: center;
+}
+.showcase .intro{
+    background-color:#fff;
+    width:40%;
+    padding: 40px 30px;
+    border-radius:40px;
+}
+.showcase .wrapper h1,.showcase .wrapper,.showcase .wrapper h3 p{
+    line-height:1.6em;
+}
+.intro h3{
+    font-weight:200;
+}
+.intro h1{
+    color:#e72c66;
+    font-size:2.2em;
+    padding-bottom:10px;
+}
+.intro p{
+    font-weight:500;
+}
+main{
+    background: rgb(197,208,242);
+background: linear-gradient(360deg, rgba(197,208,242,1) 0%, rgba(246,229,238,1) 100%);
+padding-top:50px;
+padding-bottom:10px;
+}
+section{
+    background-color:rgb(173,158,253);
+    margin-bottom:50px;
+    border-radius:20px;
+}
+section h3{
+    padding-bottom:20px;
+}
+section h4{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+section h2{
+    padding-bottom:20px;
+    padding-top:20px;
+}
+.keeper{
+    width:90%;
+    margin:auto;
+    padding-top:30px;
+    padding-bottom:30px;
+    line-height:1.6em;
+}
+#motion p{
+    padding-bottom:50px;
+}
+#kapwing a{
+    color:#fff;
+}
+#kapwing a:hover{
+    color:#e72c66;
+    font-weight:600;
+}
+#kapwing a:visited{
+    color:#e72c66;
+}
+iframe{
+    margin:auto;
+    display:block;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#graphic img{
+    width:100%;
+    display:block;
+    padding-top:20px;
+    padding-bottom:20px;
+}
