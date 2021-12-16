@@ -28,7 +28,7 @@ li{
     color:#4b7de1;
 }
 .showcase{
-    background:url("images/background.jpg");
+    background:url("background.jpg");
     background-size:cover;
     background-position: top center;
     min-height:100vh;
